@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Himanth Kumar Davuluri | Portfolio</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body class="dark-theme">
+
+    <!-- Navigation -->
+    <header>
+        <div class="container nav-container">
+            <a href="#home" class="logo">Himanth.</a>
+            <div class="nav-elements">
+                <nav>
+                    <ul class="nav-links">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#experience">Experience</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#certifications">Certificates</a></li>
+                        <li><a href="#achievements">Education</a></li>
+                    </ul>
+                </nav>
+                <div class="nav-controls">
+                    <button id="theme-toggle" aria-label="Toggle theme">
+                        <i class="fa-solid fa-moon"></i>
+                    </button>
+                    <button id="mobile-menu-btn" aria-label="Toggle mobile menu">
+                        <i class="fa-solid fa-bars"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero section">
+            <div class="container hero-container">
+                <div class="hero-content fade-in">
+                    <p class="greeting">Hi, I am</p>
+                    <h1 class="name">Himanth Kumar Davuluri</h1>
+                    <h2 class="tagline">Computer Science Student | Data Analytics & Machine Learning Enthusiast</h2>
+                    <p class="bio">
+                        Passionate about data analytics, machine learning, and data visualization.
+                        I love extracting actionable insights from complex datasets and building impactful solutions.
+                    </p>
+
+                    <div class="social-links">
+                        <a href="https://linkedIn.com/in/davulurihimanth" target="_blank" aria-label="LinkedIn"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://github.com/HimanthDavuluri" target="_blank" aria-label="GitHub"><i
+                                class="fa-brands fa-github"></i></a>
+                        <a href="mailto:himanthd08@gmail.com" aria-label="Email"><i
+                                class="fa-solid fa-envelope"></i></a>
+                    </div>
+
+                    <div class="cta-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in delay-1">
+                    <div class="image-wrapper">
+                        <!-- Place your image here: C:\DP\portfolio\assets\profile.jpg -->
+                        <div class="profile-placeholder">
+                            <img src="assets/profile.jpg" alt="Himanth Kumar Davuluri" id="profile-img">
+                            <i class="fa-solid fa-user-astronaut" id="profile-icon"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section bg-alt">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Technical Skills</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="skills-grid fade-in delay-1">
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <i class="fa-solid fa-code"></i>
+                            <h3>Programming Languages</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">C++</span>
+                            <span class="skill-tag">C</span>
+                            <span class="skill-tag">Python</span>
+                            <span class="skill-tag">Java</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <i class="fa-brands fa-html5"></i>
+                            <h3>Web Technologies</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">HTML</span>
+                            <span class="skill-tag">CSS</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <i class="fa-solid fa-wrench"></i>
+                            <h3>Tools & Platforms</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">VS Code</span>
+                            <span class="skill-tag">Jupyter Notebook</span>
+                            <span class="skill-tag">Power Query</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <i class="fa-solid fa-chart-pie"></i>
+                            <h3>Data Visualization</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Power BI</span>
+                            <span class="skill-tag">DAX</span>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <div class="skill-cat-header">
+                            <i class="fa-solid fa-people-group"></i>
+                            <h3>Soft Skills</h3>
+                        </div>
+                        <div class="skill-tags">
+                            <span class="skill-tag">Creativity</span>
+                            <span class="skill-tag">Adaptability</span>
+                            <span class="skill-tag">Time Management</span>
+                            <span class="skill-tag">Team Collaboration</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience / Training Section -->
+        <section id="experience" class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Training & Experience</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="timeline fade-in delay-1">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header">
+                                <h3>From Data to Insights (Hands-on Data Science)</h3>
+                                <span class="date">Jul 2025</span>
+                            </div>
+                            <h4 class="company">Centre for Professional Enhancement, Lovely Professional University</h4>
+                            <ul class="task-list">
+                                <li>Completed hands-on training in data cleaning, preprocessing, and transformation to
+                                    prepare analysis-ready datasets.</li>
+                                <li>Performed Exploratory Data Analysis (EDA) using Python to identify patterns, trends,
+                                    and actionable insights.</li>
+                                <li>Applied statistical analysis techniques to support data-driven decision-making.</li>
+                                <li>Developed data visualization skills to communicate insights effectively using charts
+                                    and dashboards.</li>
+                                <li>Built end-to-end analytical workflows, simulating real-world data analysis projects.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section bg-alt">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Featured Projects</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="projects-grid fade-in delay-1">
+                    <!-- Project 1 -->
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-face-smile"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <h3>Sentiment Analysis of Amazon Food Reviews</h3>
+                                <span class="date tag-date">May 2025</span>
+                            </div>
+                            <ul class="task-list small">
+                                <li>Built an end-to-end sentiment analysis system using the Amazon Fine Food Reviews
+                                    dataset.</li>
+                                <li>Converted 1–5 star ratings into binary sentiment labels for supervised machine
+                                    learning.</li>
+                                <li>Performed text preprocessing, tokenization, and TF-IDF vectorization.</li>
+                                <li>Trained and evaluated a Logistic Regression model, achieving ~82% accuracy.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>Pandas</span>
+                                <span>Scikit-learn</span>
+                                <span>Logistic Regression</span>
+                                <span>Power BI</span>
+                            </div>
+                            <div class="project-actions" style="margin-top: 1.5rem;">
+                                <a href="https://github.com/shauryaverma03/Sentiment-Analysis-Using-Machine-Learning" class="btn btn-primary" target="_blank" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fa-solid fa-link"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Project 2 -->
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fa-solid fa-cloud"></i>
+                        </div>
+                        <div class="project-info">
+                            <div class="project-meta">
+                                <h3>India Air Quality Monitoring Dashboard</h3>
+                                <span class="date tag-date">Nov 2025</span>
+                            </div>
+                            <ul class="task-list small">
+                                <li>Designed an interactive Power BI dashboard to analyze air quality trends across
+                                    major Indian cities.</li>
+                                <li>Cleaned and transformed large datasets using Power Query, handling missing values
+                                    and standardizing names.</li>
+                                <li>Created DAX measures and KPIs to compute Average AQI, PM2.5, PM10, and SO₂ levels.
+                                </li>
+                                <li>Identified high-risk cities, pollution hotspots, and seasonal patterns for
+                                    environmental insights.</li>
+                            </ul>
+                            <div class="project-tech">
+                                <span>Power BI</span>
+                                <span>Power Query</span>
+                                <span>DAX</span>
+                                <span>Data Visualization</span>
+                            </div>
+                            <div class="project-actions" style="margin-top: 1.5rem;">
+                                <a href="https://www.linkedin.com/posts/davulurihimanth_air-quality-monitoring-dashboard-power-activity-7406283328607363073-PgbO?utm_source=share&amp;utm_medium=member_desktop&amp;rcm=ACoAAE3qT-EBuDHcoUPy-re5jYahYq1UeXoMVvs" class="btn btn-primary" target="_blank" style="padding: 8px 16px; font-size: 0.9rem;">
+                                    <i class="fa-solid fa-link"></i> View Project
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Certificates</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="cert-grid fade-in delay-1">
+                    <a href="assets/certificates/deloitte.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Data Analytics</h4>
+                                <p class="issuer">Deloitte</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/aws.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Solutions Architecture</h4>
+                                <p class="issuer">AWS</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/introduction%20to%20Generative%20AI%20studio.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Introduction to Generative AI Studio</h4>
+                                <p class="issuer">Simplilearn</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/introduction%20to%20MS%20Excel.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Introduction to MS Excel</h4>
+                                <p class="issuer">Simplilearn</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/NPTL.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Social Networking</h4>
+                                <p class="issuer">NPTEL</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/Edyoda.jpg" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Frontend Web Dev Micro Degree</h4>
+                                <p class="issuer">Edyoda</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                    <a href="assets/certificates/freecodecamp.png" class="cert-link" target="_blank">
+                        <div class="cert-card">
+                            <i class="fa-solid fa-certificate cert-icon"></i>
+                            <div class="cert-details">
+                                <h4>Responsive Web Design</h4>
+                                <p class="issuer">FreeCodeCamp</p>
+                            </div>
+                            <span class="btn cert-view-btn">View <i
+                                    class="fa-solid fa-arrow-up-right-from-square"></i></span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education / Achievements Section -->
+        <section id="achievements" class="section bg-alt">
+            <div class="container">
+                <div class="section-header fade-in">
+                    <h2>Education</h2>
+                    <div class="underline"></div>
+                </div>
+
+                <div class="timeline fade-in delay-1">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header edu-flex">
+                                <h3>Lovely Professional University <span class="location">- Phagwara, Punjab</span></h3>
+                                <span class="date">Since Aug 2023</span>
+                            </div>
+                            <h4 class="degree">Bachelor of Technology - Computer Science and Engineering</h4>
+                            <p class="score">CGPA: <strong>6.5</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header edu-flex">
+                                <h3>Tirumala Junior College <span class="location">- Rajahmundry, Andhra Pradesh</span>
+                                </h3>
+                                <span class="date">Apr 2021 – Mar 2023</span>
+                            </div>
+                            <h4 class="degree">Intermediate</h4>
+                            <p class="score">Percentage: <strong>93%</strong></p>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <div class="timeline-header edu-flex">
+                                <h3>Sasi High School <span class="location">- Nallajerla, Andhra Pradesh</span></h3>
+                                <span class="date">Apr 2019 – Mar 2020</span>
+                            </div>
+                            <h4 class="degree">Matriculation</h4>
+                            <p class="score">Percentage: <strong>99%</strong></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA & Footer Section -->
+        <section id="contact" class="section cta-section">
+            <div class="container text-center fade-in">
+                <h2 class="cta-title">Let's Work Together</h2>
+                <p class="cta-subtitle">I'm currently looking for new opportunities in Data Analytics and Software
+                    Engineering. Whether you have a question or just want to say hi, I'll try my best to get back to
+                    you!</p>
+
+                <div class="cta-actions">
+                    <a href="mailto:himanthd08@gmail.com" class="btn btn-primary btn-lg">Get in Touch</a>
+                    <a href="#" class="btn btn-secondary btn-lg" id="download-cv"><i class="fa-solid fa-download"></i>
+                        Download Resume</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-container">
+            <div class="footer-socials">
+                <a href="https://linkedIn.com/in/davulurihimanth" target="_blank" aria-label="LinkedIn"><i
+                        class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/HimanthDavuluri" target="_blank" aria-label="GitHub"><i
+                        class="fa-brands fa-github"></i></a>
+                <a href="mailto:himanthd08@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+            </div>
+            <p class="copyright">&copy; <span id="year"></span> Himanth Kumar Davuluri. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="js/script.js"></script>
+</body>
+
+</html>
